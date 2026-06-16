@@ -1,0 +1,17 @@
+{
+  "project": "ios_builder_test",
+  "platform": "ios",
+  "github": {
+    "owner": "JexUgaz",
+    "repo": "ios_builder_test"
+  },
+  "ios": {
+    "path": "ios"
+  },
+  "flutter": {
+    "version": "3.28.0-2.0.pre.38593",
+    "watch": {}
+  },
+  "reactNative": {},
+  "mobai": {}
+}
