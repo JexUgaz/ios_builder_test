@@ -21,7 +21,7 @@ on:
         description: "Enable code signing (requires secrets to be configured)"
         required: false
         type: boolean
-        default: false
+        default: true
       configuration:
         description: "Build configuration (Debug is faster, Release for production)"
         required: false
