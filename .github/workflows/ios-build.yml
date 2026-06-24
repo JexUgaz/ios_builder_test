@@ -344,7 +344,7 @@ jobs:
         if: inputs.use_signing
         uses: apple-actions/upload-testflight-build@v3
         with:
-          app-path: build/*.ipa
+          app-path: build/${{ inputs.build_id }}.ipa
           issuer-id: ${{ secrets.APPLE_ISSUER_ID }}
           api-key-id: ${{ secrets.APPLE_KEY_ID }}
           api-private-key: ${{ secrets.APPLE_PRIVATE_KEY }}
