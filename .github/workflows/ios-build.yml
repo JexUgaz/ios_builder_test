@@ -207,6 +207,8 @@ jobs:
                 -configuration Release \
                 -destination "generic/platform=iOS" \
                 -archivePath ../build/App.xcarchive \
+                CODE_SIGN_STYLE=Manual \
+                DEVELOPMENT_TEAM=5K5QZVR5C9 \
                 archive
 
               cd ..
