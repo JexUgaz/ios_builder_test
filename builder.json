@@ -9,9 +9,12 @@
     "path": "ios"
   },
   "flutter": {
-    "version": "3.28.0-2.0.pre.38593",
+    "version": "3.44.2",
     "watch": {}
   },
   "reactNative": {},
-  "mobai": {}
+  "mobai": {
+    "url": "http://DESKTOP-IB6T3IB.local:8686",
+    "device_id": ""
+  }
 }
