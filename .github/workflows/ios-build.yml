@@ -340,6 +340,15 @@ jobs:
           retention-days: 7
           if-no-files-found: error
 
+      - name: Upload to TestFlight
+        if: inputs.use_signing
+        uses: apple-actions/upload-testflight-build@v3
+        with:
+          app-path: build/*.ipa
+          issuer-id: ${{ secrets.APPLE_ISSUER_ID }}
+          api-key-id: ${{ secrets.APPLE_KEY_ID }}
+          api-private-key: ${{ secrets.APPLE_PRIVATE_KEY }}
+
       - name: Save DerivedData cache
         uses: actions/cache/save@v4
         if: always()
