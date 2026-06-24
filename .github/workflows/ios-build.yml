@@ -294,7 +294,6 @@ jobs:
               '    <key>teamID</key>' \
               '    <string>5K5QZVR5C9</string>' \
               '    <key>provisioningProfiles</key>' \
-              '    <string>5K5QZVR5C9</string>' \
               '    <dict>' \
               '       <key>com.jexugaz.iosBuilderTest</key>' \
               '       <string>iosBuilderTest_AppStore_Profile</string>' \
